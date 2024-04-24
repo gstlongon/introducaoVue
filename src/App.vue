@@ -6,7 +6,7 @@ import {ref} from 'vue'
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-    <router-link class="navbar-brand" to="/">Pokedex</router-link>
+    <router-link class="navbar-brand" to="/"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Rick_and_Morty.svg" width="300" height="80" alt=""></router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -35,10 +35,9 @@ import {ref} from 'vue'
 <style>
 
 footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   height: 40px;
+  margin-top: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
